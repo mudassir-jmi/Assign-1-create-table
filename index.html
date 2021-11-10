@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+     <!-- Assignment 1 a.Table
+        (i)Create an HTML table with 5 columns and 5 rows, with a header row and the First column as S.No
+        (ii) The header rows should be S.No, First Name, Last Name, City, Country.
+        (iii) Fill the table with realistic data -->
+
+        <!-- b. Buttons
+        (i) Create 2 buttons: 1st button called "Add row to bottom" will add a new row with the data to the table.
+        (ii) 2nd button called "Add row to top" will add new row to the top of the table below the header row.
+        (iii) The S.No should be automatically adjusted.  -->
+    
+   <div class="container">
+
+        <div class="form-div">
+            <div class="row">
+                <div class="col-md-1">
+                    <input type="text" class="form-control" id="sno" placeholder="S.No">
+                </div><br><br>
+
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                </div><br><br>
+
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                </div><br><br>
+
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="city" placeholder="City">
+                </div><br><br>
+
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="country" placeholder="Country">
+                </div><br><br>
+
+                <div class="col-md-3" style="text-align: right;">
+                    <button class="btn btn-primary" id="add-row-bottom">Add row to bottom</button><br><br>
+                </div>
+
+                <div class="col-md-3" style="text-align: right;">
+                    <button class="btn btn-primary" id="add-row-top">Add row to top</button><br>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <table class="css-serial">
+                <thead>
+                    <tr>
+                        
+                        <th>S.No</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>City</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        
+                        <td>&nbsp;</td>
+                        <td>Mudassir</td>
+                        <td>Akhter</td>
+                        <td>Muzaffarpur</td>
+                        <td>India</td>
+        
+                    </tr>
+                    <tr>
+                        
+                        <td>&nbsp;</td>
+                        <td>Mudassir</td>
+                        <td>Akhter</td>
+                        <td>Muzaffarpur</td>
+                        <td>India</td>
+        
+                    </tr>
+                    <tr>
+                        
+                        <td>&nbsp;</td>
+                        <td>Mudassir</td>
+                        <td>Akhter</td>
+                        <td>Muzaffarpur</td>
+                        <td>India</td>
+        
+                    </tr>
+                    <tr>
+                        
+                        <td>&nbsp;</td>
+                        <td>Mudassir</td>
+                        <td>Akhter</td>
+                        <td>Muzaffarpur</td>
+                        <td>India</td>
+        
+                    </tr>
+                    
+                </tbody>
+            </table><br>
+
+         </div>
+     </div>
+
+      <script src="script.js"></script>
+    
+    </body>
+    </html>

@@ -1,0 +1,74 @@
+.form-div{
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+button{
+    width: 200px;
+}
+
+.css-serial{
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.css-serial thead tr{
+    background-color: darkviolet;
+    box-shadow: 0px 0px 5px darkviolet;
+    outline: darkviolet;
+    border: 1px solid white;
+    color: white;
+}
+
+.css-serial th, .css-serial td{
+    padding: 10px;
+    text-align: center
+}
+
+.css-serial tbody tr:hover{
+    background-color: #8080804a;
+}
+
+.css-serial tbody tr:active{
+    box-shadow: 0px 0px 5px black;
+}
+
+.remove-row{
+    background-color: darkviolet;
+    border: 1px solid white !important;
+    outline: darkviolet !important;
+    color: white;
+    widows: 200px !important;
+    height: 40px;
+    box-shadow: 0px 0px 5px darkviolet;
+}
+
+.remove-row:active{
+    border: 1px solid white;
+    outline: darkviolet !important;
+    width: 195px !important;
+    height: 38px !important;
+}
+
+.fadetext{
+    animation: fadetext 1s ease;
+}
+
+
+/* Automatic Serial Number Row */
+.css-serial {
+	counter-reset: serial-number; /* Set the serial number counter to 0 */
+   }
+   .css-serial td:first-child:before {
+	counter-increment: serial-number; /* Increment the serial number counter */
+	content: counter(serial-number); /* Display the counter */
+   }
+
+@keyframes fadetext{
+    0%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
